@@ -9,17 +9,16 @@ banner_subtitle: a minimalist template for personal websites
 background_image: /images/background.jpeg
 
 # all of the following variables are optional -----------------
-page_url: /hello # only include this variable if you aren't building the page to your primary domain 
+page_url: /JaimeHuerta # only include this variable if you aren't building the page to your primary domain 
 
 # favicon
 favicon: /assets/ico/favicon.ico
 
 # social media
-twitter_username: notsaragong # # your twitter handle
-github_username:  saragong # your github username
-linkedin: saragong # the part after ("https://www.linkedin.com/in/...")
-# facebook_username: <-- your facebook username (the part after "https://www.facebook.com/...")
-# google_analytics: <-- your google analytics Tracking ID
+twitter_username: jhuerta1702
+github_username:  jhuerta17
+linkedin: jaime-huertautd
+facebook_username: jaime.a.huerta.7
 
 # By declaring these variables, you can include a button that links to an external website or to media.
 about_button: https://github.com/saragong/hello # the link
@@ -37,8 +36,8 @@ portfolio_description: you can include a portfolio showcasing your work and orga
 # By declaring these variables, you can include a CTA section.
 cta: connect # the heading for your CTA section
 cta_description: questions, comments, or concerns? please don't hesitate to reach out. # a description to be desplayed below the heading and above the content
-cta_button: mailto:saragong@usc.edu # a link to an external website or to media
-cta_button_label: contact # the label on the button
+cta_button: mailto:jaime.huerta@utdallas.edu
+cta_button_label: contact
 
 ---			
 [//]: # (write a bit about yourself here)
