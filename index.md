@@ -1,5 +1,5 @@
 ---
-layout: hello-default
+layout: jaimehuerta
 
 # using Markdown language, you can customize the following variables!
 
