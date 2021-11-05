@@ -20,9 +20,8 @@ github_username:  jhuerta17
 linkedin: jaime-huertautd
 facebook_username: jaime.a.huerta.7
 
-# By declaring these variables, you can include a button that links to an external website or to media.
-about_button: https://github.com/saragong/hello # the link
-about_button_label: get hello # the label on the button
+about_button: https://github.com/jhuerta17/jhuerta17.github.io
+about_button_label: Go to GitHub Repo
 
 # optional portfolio section ------------------------------------------
 
