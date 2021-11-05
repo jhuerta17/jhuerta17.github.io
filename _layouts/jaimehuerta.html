@@ -16,33 +16,38 @@
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   </head>
-  <body class="body" style="background-color: #d4c7b6c7;">
-    <!-- HEADER -->
-    <header class="header">
-      <a href="#default" class="logo">Jaime Huerta</a>
-      <div class="header-right">
-        <a class="active" href="#home">About</a>
-        <a href="#contact">Resume</a>
-        <a href="#about">Contact</a>
-      </div>
-    </header> 
-    <!-- BANNER -->		
-    <article class="top_banner">
-        <img class="jaime_image" src="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.6435-9/238940606_4268608483219435_4611514212848612407_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=ziQJxs02fmsAX80wTLI&_nc_oc=AQkjyTCJCf39TW9zBBYXZ65WYM7mE5Nss0ETLONoEkedEZ2aB1qOu4k7HJa2kEdVUrk&tn=MU_YPQCLwpYRcwB1&_nc_ht=scontent-dfw5-1.xx&oh=bc69d34d175d253031ee64e0b328e373&oe=61A8EB20" alt="Personal Picture">
-        <div class="inner">
-            <h2 class="name_banner">Jaime Huerta</h2>
-            <p style="text-transform:none; font-size: 2em; font-weight: 200;">A minimalist website about my life and career</p>
+  <body class="body" >
+    <div id="page-container" style="background-color: #cb997e;">
+      <!-- HEADER -->
+      <header class="header">
+        <a href="#default" class="logo">Jaime Huerta</a>
+        <div class="header-right">
+          <a class="active" href="#home">About</a>
+          <a href="#contact">Resume</a>
+          <a href="#about">Contact</a>
         </div>
-    </article>
-    <!-- FOOTER -->
-    <footer class="footer">
-      <div class="icons">
-        <a href="https://twitter.com/{{ page.twitter_username }}" class="icon circle fa-twitter"><span class="label">Twitter</span></a>
-        <a href="https://twitter.com/{{ page.twitter_username }}" class="icon circle fa-twitter"><span class="label">Twitter</span></a>
-        <a href="https://www.facebook.com/{{ page.facebook_username }}" class="icon circle fa-facebook"><span class="label">Facebook</span></a>
-        <a href="https://github.com/{{ page.github_username }}" class="icon circle fa-github"><span class="label">Github</span></a>
-        <a href="https://linkedin.com/in/{{ page.linkedin }}" class="icon circle fa-linkedin-square"><span class="label">LinkedIn</span></a>
+      </header> 
+      <div id="content-wrap">
+        <!-- BANNER -->		
+        <div class="top_banner">
+          <div>
+            <img class="jaime_image" src="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.6435-9/238940606_4268608483219435_4611514212848612407_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=ziQJxs02fmsAX80wTLI&_nc_oc=AQkjyTCJCf39TW9zBBYXZ65WYM7mE5Nss0ETLONoEkedEZ2aB1qOu4k7HJa2kEdVUrk&tn=MU_YPQCLwpYRcwB1&_nc_ht=scontent-dfw5-1.xx&oh=bc69d34d175d253031ee64e0b328e373&oe=61A8EB20" alt="Personal Picture">
+            <div class="inner">
+                <h2 class="name_banner">Jaime Huerta</h2>
+                <p style="text-transform:none; font-size: 2em; font-weight: 200; color: #3b465e;">A minimalist website about my life and career</p>
+            </div>
+          </div>
+        </div>
       </div>
-    </footer>
+      <!-- FOOTER -->
+      <footer id="footer_jaime">
+        <div class="icons">
+          <a href="https://twitter.com/jhuerta1702" class="icon circle fa-twitter"><span class="label">Twitter</span></a>
+          <a href="https://www.facebook.com/jaime.a.huerta.7" class="icon circle fa-facebook"><span class="label">Facebook</span></a>
+          <a href="https://github.com/jhuerta17" class="icon circle fa-github"><span class="label">Github</span></a>
+          <a href="https://linkedin.com/in/jaime-huertautd" class="icon circle fa-linkedin-square"><span class="label">LinkedIn</span></a>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
