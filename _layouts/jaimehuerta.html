@@ -16,23 +16,33 @@
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   </head>
-  <body class="index" style="background-color: #d4c7b6c7;">
+  <body class="body" style="background-color: #d4c7b6c7;">
     <!-- HEADER -->
-    <div class="header">
+    <header class="header">
       <a href="#default" class="logo">Jaime Huerta</a>
       <div class="header-right">
         <a class="active" href="#home">About</a>
         <a href="#contact">Resume</a>
         <a href="#about">Contact</a>
       </div>
-    </div> 
+    </header> 
     <!-- BANNER -->		
-    <section class="top_banner">
+    <article class="top_banner">
         <img class="jaime_image" src="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.6435-9/238940606_4268608483219435_4611514212848612407_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=ziQJxs02fmsAX80wTLI&_nc_oc=AQkjyTCJCf39TW9zBBYXZ65WYM7mE5Nss0ETLONoEkedEZ2aB1qOu4k7HJa2kEdVUrk&tn=MU_YPQCLwpYRcwB1&_nc_ht=scontent-dfw5-1.xx&oh=bc69d34d175d253031ee64e0b328e373&oe=61A8EB20" alt="Personal Picture">
         <div class="inner">
             <h2 class="name_banner">Jaime Huerta</h2>
             <p style="text-transform:none; font-size: 2em; font-weight: 200;">A minimalist website about my life and career</p>
         </div>
-    </section>
+    </article>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="icons">
+        <a href="https://twitter.com/{{ page.twitter_username }}" class="icon circle fa-twitter"><span class="label">Twitter</span></a>
+        <a href="https://twitter.com/{{ page.twitter_username }}" class="icon circle fa-twitter"><span class="label">Twitter</span></a>
+        <a href="https://www.facebook.com/{{ page.facebook_username }}" class="icon circle fa-facebook"><span class="label">Facebook</span></a>
+        <a href="https://github.com/{{ page.github_username }}" class="icon circle fa-github"><span class="label">Github</span></a>
+        <a href="https://linkedin.com/in/{{ page.linkedin }}" class="icon circle fa-linkedin-square"><span class="label">LinkedIn</span></a>
+      </div>
+    </footer>
   </body>
 </html>
