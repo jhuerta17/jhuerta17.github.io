@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
 .body{
     display: grid;
     grid-template-rows: auto 1fr auto;
@@ -8,12 +12,17 @@
     border-radius: 50%;
     position: fixed;
     top:120px;
-    right: 55%;
+    right: 60%;
 }
 
 .top_banner{
-    background-color:#68625bc7;
+    background-color:#cb997e;
     display: block;
+    height: 500px;
+}
+.banner_contents{
+    z-index: 1;
+    position: fixed;
 }
 
 .inner{
@@ -33,7 +42,8 @@
 	padding: 3em;
 	text-align: center;
     position: fixed;
-    left: 45%;
+    left: 40%;
+    right: 10%;
     top: 160px;
 }
 
@@ -105,4 +115,20 @@
     color: #7c8081;
     padding: 20px 20px 20px 20px;
     text-align: center;
+    z-index: 3;
+  }
+  .resume{
+      background-color: white;
+      height: 1500px;
+      position: relative;
+      z-index: 2;
+      border-radius: 5%;
+      width: 90%;
+      margin-left: 5%;
+  }
+  .resume_image{
+      margin-left: 5%;
+      margin-top: 10px;
+      width: 90%;
+      height: 1480px;
   }
