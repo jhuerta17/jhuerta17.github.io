@@ -16,7 +16,7 @@ html {
 }
 
 .top_banner{
-    background-color:#cb997e;
+    background-color:#bbbbbb;
     display: block;
     height: 500px;
 }
@@ -51,20 +51,20 @@ html {
     font-size: 3em;
     text-transform:none;
     font-weight: 400;
-    border-bottom: 2px solid #3b465e;
+    border-bottom: 2px solid #3d3d3d;
     padding-bottom: 20px;
     margin-bottom: 25px;
-    color: #3b465e;
+    color: #3d3d3d;
 }
 
 .header {
     overflow: hidden;
-    background-color: #1d3557d1;
+    background-color: #3d3d3d;
     padding: 10px 5px;
 }
 .header a {
     float: left;
-    color: #cb997e;
+    color: #bbbbbb;
     text-align: center;
     padding: 12px;
     text-decoration: none;
@@ -79,8 +79,8 @@ html {
     border-bottom: 0px;
 }
 .header a:hover {
-    background-color: #2d2d42;
-    color: white;
+    background-color: #848484;
+    color: #bbbbbb;
 }
   
 .header-right {
@@ -118,7 +118,7 @@ html {
     z-index: 3;
   }
   .resume{
-      background-color: white;
+      background-color: #979797;
       height: 1500px;
       position: relative;
       z-index: 2;
