@@ -46,8 +46,7 @@ custom styles adapted from Twenty by HTML5 Up
 	}
 
 		a:hover {
-			border-bottom-color: transparent;
-			color:rgb(79, 166, 209);
+			color:rgb(61, 61, 61);
 		}
 
 	strong, b {
