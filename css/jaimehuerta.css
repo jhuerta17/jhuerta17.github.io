@@ -113,7 +113,7 @@
     }
     .resume_image{
         margin-top: 10px;
-        width: 90%;
+        width: 1300px;
         height: 1480px;
     }
     .separation{
@@ -152,7 +152,29 @@
         color: #3d3d3d;
     }
 }
-@media (max-width:415px){
+@media (max-width:1500px){
+    .resume_image{
+        width: 90%;
+    }
+}
+@media (max-width:820px){
+    .jaime_image {
+        width: 200px;
+        height: 200px;
+        top: 100px;
+    }
+    .inner {
+        top: 50px;
+    }
+    .top_banner {
+        height: 250px;
+    }
+    .inner {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+@media (max-width:420px){
     .logo {
         width: 100%;
     }
@@ -180,7 +202,7 @@
     .top_banner {
         display: block;
         text-align: center;
-        height: 300px;
+        height: 325px;
     }
     .resume_image {
         height: 500px;
