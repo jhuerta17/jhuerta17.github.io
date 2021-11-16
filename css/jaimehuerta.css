@@ -1,6 +1,6 @@
 @media (max-width:2560px){
     html {
-        scroll-behavior:smooth;
+        scroll-behavior: smooth;
     }
     .body{
         display: grid;
